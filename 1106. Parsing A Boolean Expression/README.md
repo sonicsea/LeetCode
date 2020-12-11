@@ -20,26 +20,20 @@ Constraints:
 
 <p>&nbsp;</p>
 
-Example 1:
+<p>Example 1:</p>
 
-Input: expression = "!(f)"
+Input: expression = "!(f)"<br>
 Output: true
-Example 2:
+<p>Example 2:</p>
 
-Input: expression = "|(f,t)"
+Input: expression = "|(f,t)"<br>
 Output: true
-Example 3:
+<p>Example 3:</p>
 
-Input: expression = "&(t,f)"
+Input: expression = "&(t,f)"<br>
 Output: false
-Example 4:
+<p>Example 4:</p>
 
-Input: expression = "|(&(t,f,t),!(t))"
+Input: expression = "|(&(t,f,t),!(t))"<br>
 Output: false
  
-
-Constraints:
-
-1 <= s.length <= 10^5
-2 <= k <= 10^4
-s only contains lower case English letters.
